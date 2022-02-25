@@ -7,7 +7,7 @@
 }
 
 body {
-  background-color: #a5a2a2;
+  /* background-color: #e0dfd0; */
 }
 
 /* NAVBAR START */
@@ -40,10 +40,68 @@ nav {
 }
 
 .nav-links li a:hover {
-    color: #4869E5;
+  color: #4869e5;
 }
 
 .active {
   color: #ca474a !important;
 }
 /* NAVBAR END */
+
+/* HERO-SECT START */
+#hero {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+}
+
+.personal-pic {
+  /* width: 30%; */
+  height: 100%;
+  background-color: #3fc5ff;
+  padding: 0 40px;
+}
+
+.personal-pic img {
+  width: auto;
+  height: auto;
+  /* padding: 0 20%; */
+}
+
+.hero-aside-content {
+  background-color: #b6e1fb;
+  /* width: 70%; makes the content squized to center */
+  /* padding: 60px 0; */
+}
+
+.name {
+  margin: 20% 10% 5% 20%;
+  font-family: "Open Sans", sans-serif;
+  font-size: 2.2em;
+}
+.name span {
+  font-weight: 900;
+}
+
+.bio-content {
+  margin: 5% 30% 10% 20%;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1em;
+}
+
+.explore-btn {
+  text-decoration: none;
+  background-color: #1ca3ef;
+  color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10% 20%;
+}
+
+#contact-icons {
+    margin: 30% 0;
+    cursor: pointer;
+}
+.icon {
+  margin: 4px;
+}
