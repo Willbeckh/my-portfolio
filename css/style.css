@@ -7,7 +7,7 @@
 }
 
 body {
-  /* background-color: #e0dfd0; */
+  background-color: #f1f1f1;
 }
 
 /* NAVBAR START */
@@ -104,4 +104,12 @@ nav {
 }
 .icon {
   margin: 4px;
+}
+/* HERO-SECTION END */
+
+/* ABOUT-SECT START */
+#about {
+  /* text-align: center; */
+  background-color: #fff;
+  height: 100vh;
 }
