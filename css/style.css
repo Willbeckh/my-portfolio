@@ -70,7 +70,7 @@ nav {
 
 .hero-aside-content {
   background-color: #b6e1fb;
-  /* width: 70%; makes the content squized to center */
+  /* width: 70%; makes the content squizzed to center */
   /* padding: 60px 0; */
 }
 
@@ -99,17 +99,38 @@ nav {
 }
 
 #contact-icons {
-    margin: 30% 0;
-    cursor: pointer;
+  margin: 30% 0;
+  cursor: pointer;
 }
 .icon {
   margin: 4px;
 }
 /* HERO-SECTION END */
 
-/* ABOUT-SECT START */
+/* ABOUT-SECTION START */
 #about {
-  /* text-align: center; */
   background-color: #fff;
   height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-title {
+  padding: 20px 0;
+  text-align: center;
+  flex-basis: 50px;
+}
+
+
+#about-me {
+  width: 50%;
+  background-color: rgb(136, 141, 141);
+  height: 80%;
+}
+
+#skills {
+  width: 50%;
+  background-color: rgb(44, 96, 138);
+  height: 80%;
 }
