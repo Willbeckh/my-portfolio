@@ -34,3 +34,5 @@ Site is created using;
 
 ---
 Designed with 🖤 & </> by willbeckh
+
+&copy;Copyrights 2022.  All rights reserved 
