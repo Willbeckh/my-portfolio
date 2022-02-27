@@ -17,6 +17,10 @@ h2 {
   text-align: center;
   margin: 0;
 }
+
+a {
+  text-decoration: none;
+}
 /* end */
 
 /* NAVBAR START */
@@ -28,7 +32,7 @@ nav {
 
 .logo {
   font-family: "Redressed", cursive;
-  font-size: 1.8em;
+  font-size: 2em;
   cursor: pointer;
 }
 .nav-links {
@@ -45,6 +49,7 @@ nav {
   text-decoration: none;
   margin: 1em;
   font-weight: bold;
+  font-size: 1.3em;
 }
 
 .nav-links li a:hover {
@@ -74,7 +79,7 @@ nav {
 .personal-pic img {
   width: auto;
   height: 90%;
-  /* padding: 0 20%; */
+  padding: 0 20px;
 }
 
 .hero-aside-content {
@@ -92,8 +97,9 @@ nav {
 }
 
 .bio-content {
-  margin: 5% 30% 10% 20%;
-  font-size: 1em;
+  margin: 5% 30% 6% 20%;
+  font-size: 2em;
+  color: #461f1f;
 }
 
 .explore-btn {
@@ -137,6 +143,17 @@ nav {
   font-size: 1.2em;
   font-weight: 500;
   padding: 20px;
+}
+
+.static-icons {
+  /* background-color: yellow; */
+  height: auto;
+  padding: 20px;
+  width: 100%;
+  text-align: center;
+}
+.static-icons img {
+  margin: 0 5rem;
 }
 
 #skills {
