@@ -8,7 +8,7 @@
 
 /* main style rules */
 body {
-  background-color: #fafafa;
+  /* background-color: #fafafa; */
   font-family: "Open Sans", sans-serif;
 }
 
@@ -83,7 +83,6 @@ nav {
 
 .name {
   margin: 20% 10% 5% 20%;
-  font-family: "Open Sans", sans-serif;
   font-size: 2.8em;
 }
 
@@ -93,7 +92,6 @@ nav {
 
 .bio-content {
   margin: 5% 30% 10% 20%;
-  font-family: "Open Sans", sans-serif;
   font-size: 1em;
 }
 
@@ -163,11 +161,9 @@ nav {
 }
 .hobbies,
 .interests {
-  /* background-color: red; */
   width: 50%;
   padding-left: 10%;
   margin-top: 10px;
-  /* border-top: 1px solid #000; */
 }
 
 .hobbies {
@@ -178,7 +174,6 @@ nav {
 /* PROJECTS SECTION START */
 #projects {
   height: 100vh;
-  /* background-color: #f0f0f0; */
 }
 
 #card-container {
@@ -190,7 +185,6 @@ nav {
   margin: 0 10%;
 }
 .card {
-  /* height: 40%; */
   width: 30%;
   /* border: 1px dashed black; */
   border-radius: 10px;
@@ -216,12 +210,13 @@ nav {
   width: 100%;
   height: 80%;
   opacity: 0;
-  transition: 0.5s ease;
-  background-color: #008cba;
+  transition: 0.5s linear;
+  background-color: rgba(0, 1, 0, 0.25);
+  border-radius: 10px 10px 0 0;
 }
 
 .card:hover .overlay-text {
-  opacity: 1;
+  opacity: 2;
 }
 
 .text {
@@ -237,8 +232,48 @@ nav {
   font-family: Arial, Helvetica, sans-serif;
   text-decoration: none;
   font-size: 1.2em;
+
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 10px;
 }
 
 .project-title:hover {
   color: #4869e5;
+}
+
+/* FOOTER STYLE */
+#footer {
+  height: 15vh;
+  background-color: rgba(0, 1, 0, 0.25);
+  padding: 20px;
+  font-family: serif;
+  color: #fff;
+}
+
+.foot-logo {
+  font-size: 4em;
+  font-family: "Redressed", cursive;
+  cursor: pointer;
+  margin: 10%;
+  color: #000;
+  
+}
+
+.social-links .ico {
+  width: 20px;
+  height: auto;
+}
+
+#social-icons {
+  background-color: green;
+  width: 40%;
+  float: right;
+}
+
+.copyrights {
+  font-family: "Redressed", cursive;
+  background-color: yellow;
+  /* float: right; */
 }
