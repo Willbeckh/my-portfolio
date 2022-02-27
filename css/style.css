@@ -15,6 +15,7 @@ body {
 h2 {
   padding: 20px 0;
   text-align: center;
+  margin: 0;
 }
 /* end */
 
@@ -60,13 +61,14 @@ nav {
   height: 90vh;
   display: flex;
   justify-content: center;
+  /* padding: 0 20%; */
 }
 
 .personal-pic {
   /* width: 30%; */
   height: 100%;
   background-color: #3fc5ff;
-  padding: 0 40px;
+  /* padding: 0 40px; */
 }
 
 .personal-pic img {
@@ -77,8 +79,7 @@ nav {
 
 .hero-aside-content {
   background-color: #b6e1fb;
-  /* width: 70%; makes the content squizzed to center */
-  /* padding: 60px 0; */
+  width: 70%; /* makes the content squizzed to center */
 }
 
 .name {
@@ -127,7 +128,6 @@ nav {
 
 #about-me {
   width: 50%;
-  /* background-color: rgba(199, 201, 201, 0.25); */
   height: auto;
   /* padding: 20px; */
 }
@@ -141,7 +141,6 @@ nav {
 
 #skills {
   width: 50%;
-  /* background-color: rgb(44, 96, 138); */
   height: auto;
   padding: 20px;
 }
@@ -211,7 +210,7 @@ nav {
   height: 80%;
   opacity: 0;
   transition: 0.5s linear;
-  background-color: rgba(0, 1, 0, 0.25);
+  background-color: rgba(54, 67, 75, 0.8);
   border-radius: 10px 10px 0 0;
 }
 
@@ -220,7 +219,8 @@ nav {
 }
 
 .text {
-  color: #fff;
+  color: #ffffff;
+  font-size: 1.2em;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -273,7 +273,7 @@ nav {
 .ico {
   width: 40px;
   height: auto;
-  margin:5px;
+  margin: 5px;
 }
 
 .hire-btn {
