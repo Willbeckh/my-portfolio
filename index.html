@@ -4,20 +4,227 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <link rel="icon" type="image/x-icon" href="./images/icon.png" />
+    <link rel="stylesheet" href="./css/style.css" />
+
     <title>Willbeckh|portfolio</title>
+    <!-- <base target="_blank" /> -->
   </head>
   <body>
     <nav>
       <label for="logo" class="logo">W.</label>
       <ul class="nav-links">
-        <li><a href="#" class="active">ME</a></li>
-        <li><a href="#">ABOUT</a></li>
-        <li><a href="#">PROJECTS</a></li>
+        <li><a href="#hero" class="active">ME</a></li>
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#projects">PROJECTS</a></li>
       </ul>
     </nav>
     <!-- landing-section start -->
-    <main id="me"></main>
+    <section id="hero">
+      <div class="personal-pic">
+        <img src="./images/me.png" alt="" />
+      </div>
+      <div class="hero-aside-content">
+        <h3 class="name">
+          Hello, I’m <br />
+          <span>Willbeckh Wandaka.</span>
+        </h3>
+        <p class="bio-content">Fullstack web developer. Lover of Life</p>
+        <a href="#about" class="explore-btn">Explore me</a>
+      </div>
+    </section>
     <!-- landing-section end -->
+
+    <!-- ABOUT SECTION START -->
+    <section id="about">
+      <h2 class="about-title">ABOUT ME</h2>
+      <!-- <p>Good vibes connoisseur!</p> -->
+      <div id="about-main-wrapper">
+        <div id="about-me">
+          <p>
+            Willbeckh is an avid programmer, Bringing forth a motivated attitude
+            and a variety of powerful skills. Committed to utilizing my skills
+            to further my career and impact change in the tech community.
+          </p>
+
+          <div class="sub-section">
+            <aside class="hobbies">
+              <p>Hobbies</p>
+              <ul class="hobby-list">
+                <li>Reading Watching movies/documentaries</li>
+                <li>Researching</li>
+                <li>Writing technical articles</li>
+                <li>Hiking</li>
+                <li>Listening to good music.</li>
+              </ul>
+            </aside>
+            <aside class="interests">
+              <p>Interests</p>
+              <ol>
+                <li>Lead a team of developers</li>
+                <li>Devops</li>
+                <li>Web3</li>
+                <li>Startups/Freelancing</li>
+                <li>Joining Faang</li>
+              </ol>
+            </aside>
+          </div>
+          <span class="static-icons">
+            <img src="./images/icons/011-search.png" alt="">
+            <img src="./images/icons/002-coding.png" alt="">
+            <img src="./images/icons/004-css.png" alt="">
+            <img src="./images/icons/012-palette.png" alt="">
+          </span>
+        </div>
+
+        <div id="skills">
+          <div class="progress-bar">
+            <p>HTML</p>
+            <div class="w3-light-grey w3-round">
+              <div class="w3-container w3-round w3-blue" style="width: 80%">
+                80%
+              </div>
+            </div>
+          </div>
+          <div class="progress-bar">
+            <p>CSS</p>
+            <div class="w3-light-grey w3-round">
+              <div class="w3-container w3-round w3-blue" style="width: 70%">
+                70%
+              </div>
+            </div>
+          </div>
+
+          <div class="progress-bar">
+            <p>JS</p>
+            <div class="w3-light-grey w3-round">
+              <div class="w3-container w3-round w3-blue" style="width: 30%">
+                30%
+              </div>
+            </div>
+          </div>
+          <div class="progress-bar">
+            <p>PYTHON</p>
+            <div class="w3-light-grey w3-round">
+              <div class="w3-container w3-round w3-blue" style="width: 40%">
+                40%
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ABOUT-SECTION END -->
+
+    <!-- PROJECTS START -->
+    <section id="projects">
+      <h2>Projects</h2>
+      <div id="card-container">
+        <div class="card">
+          <img src="./images/insure-site.png" alt="" class="image" />
+          <hr />
+          <div class="overlay-text">
+            <p class="text">
+              this website is created using HTML & CSS both for mobile and
+              desktop.
+            </p>
+          </div>
+          <a
+            href="https://github.com/Willbeckh/insure-website.git"
+            class="project-title"
+            >Insurance Website</a
+          >
+        </div>
+
+        <div class="card">
+          <img src="./images/blog_app.png" alt="" class="image" />
+          <hr />
+          <div class="overlay-text">
+            <p class="text">
+              A Flask web(blog application) that lets registered users create and
+              read blogs.
+            </p>
+          </div>
+          <a
+            href="https://github.com/Willbeckh/Vako-app.git"
+            class="project-title"
+            >Blog application</a
+          >
+        </div>
+
+        <div class="card">
+          <img src="./images/quiz-app.png" alt="" class="image" />
+          <hr />
+          <div class="overlay-text">
+            <p class="text">A quiz application made with Javascript.</p>
+          </div>
+          <a
+            href="https://github.com/Willbeckh/code-quizzes.git"
+            class="project-title"
+            >JS Quiz App</a
+          >
+        </div>
+
+        <!-- <div class="card">
+          <img src="" alt="" />
+          <h3>Project 1</h3>
+        </div>
+
+        <div class="card">
+          <img src="./images/user1.png" alt="" class="image" />
+          <div class="overlay-text">
+            <p class="text">Lorem ipsum dolor sit amet.</p>
+          </div>
+          <h3 class="project-title">Project 1</h3>
+        </div>
+
+        <div class="card">
+          <img src="" alt="" />
+          <h3>Project 1</h3>
+        </div> -->
+      </div>
+    </section>
+    <!-- PROJECTS END -->
+
+    <!-- FOOTER START -->
+    <section id="footer">
+      <div class="foot-logo">W.</div>
+      <div id="footer-wrap">
+        <div class="footer-content">
+          <a href="https://www.twitter.com/billyndirangu" class="social-links">
+            <img
+              src="./images/icons/001-twitter.png"
+              alt="twitter icon"
+              class="ico twitter"
+          /></a>
+          <a href="" class="social-links">
+            <img
+              src="./images/icons/002-linkedin.png"
+              alt="linkedin icon"
+              class="ico linkedin"
+          /></a>
+          <a href="https://www.github.com/Willbeckh" class="social-links">
+            <img
+              src="./images/icons/003-github.png"
+              alt="github icon"
+              class="ico github"
+          /></a>
+          <a href="https://dev.to/billyndirangu" class="social-links">
+            <img
+              src="./images/icons/004-dev.png"
+              alt="blog icon"
+              class="ico dev"
+          /></a>
+          <a href="mailto: wileyhndirangu04@gmail.com" class="hire-btn"
+            >Hire me</a
+          >
+          <p class="copyright">
+            Copyright &copy 2022. All rights reserved
+            <span class="footer-note">Made with 💙 + ☕ by willbeckh</span>
+          </p>
+        </div>
+      </div>
+    </section>
   </body>
 </html>

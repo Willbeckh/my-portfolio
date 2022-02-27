@@ -6,13 +6,22 @@
   margin: 0;
 }
 
+/* main style rules */
 body {
-  background-color: #a5a2a2;
+  /* background-color: #fafafa; */
+  font-family: "Open Sans", sans-serif;
 }
+
+h2 {
+  padding: 20px 0;
+  text-align: center;
+  margin: 0;
+}
+/* end */
 
 /* NAVBAR START */
 nav {
-  background-color: #fff;
+  background-color: #f1f1f1;
   box-shadow: 0px 0px 6px 3px rgba(0, 0, 0, 0.25);
   padding: 1.3em 10%;
 }
@@ -35,15 +44,255 @@ nav {
   color: black;
   text-decoration: none;
   margin: 1em;
-  font-family: "Open Sans", sans-serif;
   font-weight: bold;
 }
 
 .nav-links li a:hover {
-    color: #4869E5;
+  color: #4869e5;
 }
 
 .active {
   color: #ca474a !important;
 }
 /* NAVBAR END */
+
+/* HERO-SECT START */
+#hero {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  /* padding: 0 20%; */
+}
+
+.personal-pic {
+  /* width: 30%; */
+  height: 100%;
+  background-color: #3fc5ff;
+  /* padding: 0 40px; */
+}
+
+.personal-pic img {
+  width: auto;
+  height: 90%;
+  /* padding: 0 20%; */
+}
+
+.hero-aside-content {
+  background-color: #b6e1fb;
+  width: 70%; /* makes the content squizzed to center */
+}
+
+.name {
+  margin: 20% 10% 5% 20%;
+  font-size: 2.8em;
+}
+
+.name span {
+  font-weight: 900;
+}
+
+.bio-content {
+  margin: 5% 30% 10% 20%;
+  font-size: 1em;
+}
+
+.explore-btn {
+  text-decoration: none;
+  background-color: #1ca3ef;
+  color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10% 20%;
+}
+
+#contact-icons {
+  margin: 30% 0;
+  cursor: pointer;
+}
+.icon {
+  margin: 4px;
+}
+/* HERO-SECTION END */
+
+/* ABOUT-SECTION START */
+#about {
+  background-color: #fafafa;
+  height: 100vh;
+}
+
+#about-main-wrapper {
+  display: flex;
+  flex-direction: row;
+  margin: 5% 10%;
+}
+
+#about-me {
+  width: 50%;
+  height: auto;
+  /* padding: 20px; */
+}
+
+#about-me p {
+  color: #474747;
+  font-size: 1.2em;
+  font-weight: 500;
+  padding: 20px;
+}
+
+#skills {
+  width: 50%;
+  height: auto;
+  padding: 20px;
+}
+
+.progress-bar {
+  padding: 20px;
+}
+
+.progress-bar p {
+  font-weight: bold;
+}
+
+/* about sub-section */
+.sub-section {
+  display: flex;
+  flex-direction: row;
+}
+.hobbies,
+.interests {
+  width: 50%;
+  padding-left: 10%;
+  margin-top: 10px;
+}
+
+.hobbies {
+  border-right: 1px solid #000;
+}
+/* ABOUT SECTION END */
+
+/* PROJECTS SECTION START */
+#projects {
+  height: 100vh;
+}
+
+#card-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 60px;
+  margin: 0 10%;
+}
+.card {
+  width: 30%;
+  /* border: 1px dashed black; */
+  border-radius: 10px;
+  margin: 10px;
+  padding: 20px;
+  background-color: #fff;
+  position: relative;
+  box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.25);
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay-text {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 80%;
+  opacity: 0;
+  transition: 0.5s linear;
+  background-color: rgba(54, 67, 75, 0.8);
+  border-radius: 10px 10px 0 0;
+}
+
+.card:hover .overlay-text {
+  opacity: 2;
+}
+
+.text {
+  color: #ffffff;
+  font-size: 1.2em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.project-title {
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  font-size: 1.2em;
+
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 10px;
+}
+
+.project-title:hover {
+  color: #4869e5;
+}
+/* PROJECTS STYLE END */
+
+/* FOOTER STYLE */
+#footer {
+  height: 15vh;
+  background-color: rgba(118, 118, 118, 1);
+  padding: 20px;
+  font-family: serif;
+  color: #fff;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.foot-logo {
+  font-size: 4em;
+  font-family: "Redressed", cursive;
+  cursor: pointer;
+  color: #000;
+  width: auto;
+}
+
+.footer-content {
+  /* background-color: green; */
+  width: auto;
+  padding: 2px 4px;
+  font-size: 1.1em;
+}
+
+.ico {
+  width: 40px;
+  height: auto;
+  margin: 5px;
+}
+
+.hire-btn {
+  text-decoration: none;
+  background-color: #7cc2f1;
+  padding: 10px;
+  border-radius: 10px;
+  margin-left: 8%;
+}
+
+.hire-btn:hover {
+  background-color: #4869e5;
+}
+
+.copyright {
+  font-family: "Redressed", cursive;
+  margin: 10px;
+}
+
+.footer-note {
+  margin-left: 10px;
+}
